@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+  color: gray;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+ 
+}
+
+.nav a:hover{
+  border-bottom: 2px solid orangered;
+  padding-bottom: 0.5px;
+  transition: ease-in-out;
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+}
+
+.face {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cart img {
+  height: 75px;
+}
+
+.face img {
+  height: 50px;
+}
+.line {
+  border: 1px solid grey;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-left: 35px;
+  padding: 35px;
+  gap: 70px;
+}
+
+.main-image img {
+  width: 500px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.sub-image {
+  display: inline block;
+  margin-top: 5px;
+}
+
+.sub-image img {
+  width: 110px;
+  border-radius: 10px;
+  height: 110px;
+  margin: 6px;
+}
+
+.words {
+  /* border: 1px solid rgb(0, 0, 0);*/
+  padding: 45px;
+  margin-left: 25px;
+  margin-top: 75px;
+}
+h3 {
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.props {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: grey;
+}
+
+.price {
+  justify-content: center;
+  display: inline-flex;
+  gap: 10px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.discount {
+  border: 1px;
+  color: rgb(224, 89, 39);
+  background-color: rgb(244, 204, 175);
+  width: fit-content;
+  height: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  padding: 2px;
+  margin-top: 22px;
+  border-radius: 2px;
+}
+.slash {
+  color: grey;
+  text-decoration: line-through;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 100;
+  margin-bottom: 20px;
+}
+.input {
+  display: flex;
+  gap: 35px;
+}
+
+.counter input {
+  color: rgb(255, 255, 255);
+  font: bold;
+  background-color: rgb(216, 216, 216);
+  border: 2px;
+  width: 95px;
+  height: 55px;
+  border-radius: 20px;
+  color: black;
+}
+
+.main-but .sub-but {
+  background-color: chocolate;
+  border-radius: 11px;
+  height: 65px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: medium;
+}
+
+.ui {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: medium;
+  gap: 10px;
+  text-decoration: none;
+}
+
+h7 {
+  color: orangered;
+  text-decoration: none;
+}
