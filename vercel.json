@@ -1,4 +1,1 @@
-{
-  "key": "value"
-}
-{"REWRITES":[{"source": "/(.*)", "DESTINATION": "/"}]}
+
